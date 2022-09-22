@@ -1,17 +1,22 @@
 # VSCode Configuration
 
-This repository comes directly from the configuration files on the home machine. It includes keybindings, editor settings and snippets files. All other directories are ignored.
+This repository comes directly from the configuration files on the home machine.
 
-#### Path to snippet files ...
+`~/.config/Code/User`
 
-`~/.config/Code/User/snippets`
+It includes keybindings, editor settings and snippets files. All other directories are ignored.
 
 #### Path to keybindings & editor settings files ...
 
 `~/.config/Code/User`
 
-`keybindings.json` overrides defaults  
+`keybindings.json` overrides defaults.
+
 `settings.json` is the complete settings file and includes both defaults and custom settings.
+
+#### Path to snippet files ...
+
+`~/.config/Code/User/snippets`
 
 ## Some Notes on a Few Settings
 
