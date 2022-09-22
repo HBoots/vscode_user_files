@@ -35,11 +35,11 @@ Disable css linting rules in `settings.json`.
 
 ## Snippet Syntax
 
-Each snippet is defined under a snippet name and has a prefix, body and description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted.
+Each snippet is defined under a snippet name and has a prefix, body and description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. The same prefix trigger can be used for multiple snippets. The Intellisence pop up window will list all snippets by snippet name that are associated with the given prefix.
 
-Placeholders with the same ids are connected.
+Placeholders (`$1`) with the same ids will yeild multiple simultaneous cursor positions.
 
-Note that the body of a snippet is an array of lines with a line break insertion after each. Also any prefered indentation will have to be explicitly entered with tab characters (`\t`). Although this may be unecessary if relying on auto formating.
+Note that the body of a snippet is an array where each element is a single line and line break. Any prefered indentation will have to be explicitly entered with tab characters (`\t`). Although this may be unecessary if relying on auto formating.
 
 _Example:_
 
@@ -66,10 +66,10 @@ A list of currently installed extensions can be accessed in the command line wit
 
 There are some 3rd party tools that will help migrate extensions between VSCode installations.
 
-dbaeumer.vscode-eslint
-DigitalBrainstem.javascript-ejs-support
-esbenp.prettier-vscode
-humao.rest-client
-mongodb.mongodb-vscode
-ms-python.python
+dbaeumer.vscode-eslint  
+DigitalBrainstem.javascript-ejs-support  
+esbenp.prettier-vscode  
+humao.rest-client  
+mongodb.mongodb-vscode  
+ms-python.python  
 ritwickdey.LiveServer
