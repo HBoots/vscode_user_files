@@ -1,0 +1,48 @@
+{
+  // Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "HTML Boilerplate": {
+    "prefix": ["html", "HTML"],
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "\t<meta charset=\"UTF-8\">",
+      "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+      "\t<meta name=\"description\" content=\"\">",
+      "\t<link rel=\"shortcut icon\" href=\"/images/favicon.png\">",
+      "\t<link rel=\"stylesheet\" href=\"/stylesheets/style.css\">",
+      "\t<script type=\"text/javascript\" src=\"/javascripts/scripts.js\" defer></script>",
+      "\t<title>$1</title>",
+      "</head>",
+      "<body>",
+      "\t$2",
+      "</body>",
+      "</html>"
+    ],
+    "description": "Custom HTML Boilerplate"
+  },
+  "fouc": {
+    "prefix": ["fouc"],
+    "body": ["<style>", "\thtml {visibility: hidden; opacity: 0;}", "</style>"],
+    "description": "Hides html until stylesheet is loaded.  Needs visibility restored at end of stylesheet."
+  },
+  "div with class": {
+    "prefix": ["divc"],
+    "body": ["<div class='$1'>", "\t$2", "</div>"],
+    "description": "<div> with class"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "workbench.startupEditor": "none",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "editor.fontSize": 14,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.autoClosingOvertype": "never",
+  "editor.autoClosingBrackets": "always",
+
+  "editor.tokenColorCustomizations": {},
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "onlySnippets",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.parameterHints.enabled": false,
+
+  "editor.hover.enabled": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.showSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+
+  "editor.trimAutoWhitespace": false,
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": null,
+    "editor.tabSize": 4
+  },
+  "python.formatting.provider": "autopep8",
+  "python.formatting.blackArgs": ["--line-length", "80"],
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": true,
+
+  "python.linting.pylintArgs": ["--errors-only"],
+  "python.languageServer": "Jedi",
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "css.lint.emptyRules": "ignore",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "github.gitAuthentication": false,
+  "git.terminalAuthentication": false,
+
+  "prettier.singleQuote": false,
+
+  "terminal.integrated.scrollback": 10000,
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  "mdb.shell": "mongo",
+  "mdb.useDefaultTemplateForPlayground": false,
+  "mdb.sendTelemetry": false,
+  "mdb.connectionSaving.hideOptionToChooseWhereToSaveNewConnections": false
+}
