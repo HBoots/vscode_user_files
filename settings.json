@@ -3,16 +3,24 @@
 
   "security.workspace.trust.untrustedFiles": "open",
 
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false
+  },
+
   "editor.fontSize": 14,
   "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
   "editor.renderWhitespace": "all",
   "editor.autoClosingOvertype": "never",
   "editor.autoClosingBrackets": "always",
 
   "editor.tokenColorCustomizations": {},
-  "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.detectIndentation": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.tabCompletion": "onlySnippets",
@@ -22,6 +30,9 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.parameterHints.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  },
 
   "editor.hover.enabled": false,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -33,10 +44,23 @@
     "strings": false
   },
 
-  "editor.trimAutoWhitespace": false,
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+
+  "[django-html]": {
+    "editor.formatOnSave": false
+  },
 
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false
   },
 
   "[python]": {
@@ -46,7 +70,8 @@
   "python.formatting.provider": "autopep8",
   "python.formatting.blackArgs": ["--line-length", "80"],
   "python.linting.enabled": false,
-  "python.linting.pylintEnabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.formatting.autopep8Args": ["--ignore", "E402"],
 
   "python.linting.pylintArgs": ["--errors-only"],
   "python.languageServer": "Jedi",
@@ -69,6 +94,10 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
 
+  "[markdown]": {
+    "editor.tabSize": 4
+  },
+
   "github.gitAuthentication": false,
   "git.terminalAuthentication": false,
 
@@ -82,5 +111,13 @@
   "mdb.shell": "mongo",
   "mdb.useDefaultTemplateForPlayground": false,
   "mdb.sendTelemetry": false,
-  "mdb.connectionSaving.hideOptionToChooseWhereToSaveNewConnections": false
+  "mdb.connectionSaving.hideOptionToChooseWhereToSaveNewConnections": false,
+  "python.linting.lintOnSave": false,
+  "azureFunctions.showProjectWarning": false,
+  "redhat.telemetry.enabled": false,
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.linux": "/home/dreche/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path.linux": "/home/dreche/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }

@@ -71,10 +71,35 @@ A list of currently installed extensions can be accessed in the command line wit
 
 There are some 3rd party tools that will help migrate extensions between VSCode installations.
 
-dbaeumer.vscode-eslint  
-DigitalBrainstem.javascript-ejs-support  
-esbenp.prettier-vscode  
-humao.rest-client  
-mongodb.mongodb-vscode  
-ms-python.python  
-ritwickdey.LiveServer
+Extensions installed as of 7/27/24:
+
+batisteo.vscode-django
+dbaeumer.vscode-eslint
+digitalbrainstem.javascript-ejs-support
+esbenp.prettier-vscode
+hediet.vscode-drawio
+humao.rest-client
+kubescape.kubescape
+mongodb.mongodb-vscode
+ms-azuretools.vscode-docker
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-python.debugpy
+ms-python.isort
+ms-python.python
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-wsl
+ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.remote-explorer
+ms-vscode.remote-server
+redhat.java
+redhat.vscode-yaml
+ritwickdey.liveserver
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
